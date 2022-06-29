@@ -1,8 +1,8 @@
 # Description
 
-This is a compatibility plugin for [{Plugin Name by Iconic}](https://iconicwp.com/products/{plugin-name}/?utm_source=iconicwp&utm_medium=plugin&utm_campaign={repo-name}) and [{3rd-Party Plugin/Theme Name}](https://url.com/).
+This is a compatibility plugin for [Delivery Slots by IconicWP](https://iconicwp.com/products/woocommerce-delivery-slots/?utm_source=iconicwp&utm_medium=plugin&utm_campaign=iconic-woo-compat-ups-shipping-woocommerce) and [WooCommerce UPS Shipping](https://woocommerce.com/products/ups-shipping-method/).
 
 ## Changelog
 
-**0.1.0 (2021-08-05)**
+**0.1.0 (2022-06-29)**
 * Initial Release.
