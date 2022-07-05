@@ -70,3 +70,11 @@ function iconic_compat_12004_modify_shipping_method( $options ) {
 
 
 add_filter( 'iconic_wds_shipping_method_options', 'iconic_compat_12004_modify_shipping_method' );
+
+/**
+ * Activate the plugin.
+ */
+function iconic_compat_12004_activate() { 
+    delete_transient( 'iconic-wds-shipping-methods' );
+}
+register_activation_hook( __FILE__, 'iconic_compat_12004_activate' );
