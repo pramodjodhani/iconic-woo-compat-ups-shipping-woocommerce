@@ -37,6 +37,10 @@ function iconic_compat_12004_modify_shipping_method( $options ) {
 
 	foreach ( $options as $method_key => $method_name ) {
 		if ( 0 === strpos( $method_key, 'ups:' ) ) {
+			if ( 1 === preg_match( '/.*ups:\d*:\d*$/', $method_key ) ) {
+				continue;
+			}
+
 			$instance_id = str_replace( 'ups:', '', $method_key );
 
 			$ups_method = new WC_Shipping_UPS( $instance_id );
